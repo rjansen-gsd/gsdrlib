@@ -20,7 +20,7 @@ module Gsdrlib
 
 	private
 		def read_key(key)
-			return @env_data[key] if @env_data.has_key?(key)
+			return @env_data[key] if @env_data && @env_data.has_key?(key)
 			@data[key] if @data.has_key?(data)
 		end
   end
