@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'gsdrlib'
-  s.version = '0.0.3'
+  s.version = '0.0.4'
   s.date = '2014-05-06'
   s.summary = 'gsdrlib'
   s.description = 'config/initializer helpers, aws upload policies'
